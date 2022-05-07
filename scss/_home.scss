@@ -1,0 +1,134 @@
+//Home page style
+
+
+    
+.home__mainContainer .home__heroImage {
+    width: 100%;
+    height: 90vh;
+    background-image: url("../resources/imageHueyTlatoani.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    filter: brightness(80%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    }
+    
+    .home__mainContainer 
+    section.home__heroImage h1{
+    font-size: 2rem;
+    color: #b1d0e0;
+    text-transform: none;
+    background: rgba(0, 0, 0, 0.5);
+    padding: 1rem 0;
+    width: 100%;
+    text-align: center;
+    }
+    
+    .home__mainContainer 
+    section.home__categoriesContainer {
+    display: flex;
+    flex-direction: column;
+    height: 700px;
+    justify-content: space-evenly;
+    padding: 2rem;
+    width: 80%;
+    margin: 4rem auto;
+    background-color: #406882;
+    box-shadow: 5px 5px 10px #1a374d;
+    }
+    
+    .home__mainContainer 
+    section.home__categoriesContainer 
+    .home__category--image {
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    height: 100%;
+    width: 100%;
+    /* position: relative; */
+    transition: transform 0.5s;
+    }
+    
+    .home__mainContainer 
+    section.home__categoriesContainer 
+    .home__category--image:hover {
+    transform: scale(0.95);
+    }
+    
+    
+    
+    .home__mainContainer 
+    section.home__categoriesContainer 
+    .home__category--image a {
+    font-size: 1rem;
+    text-transform: uppercase;
+    color: #6998ab;
+    background: rgba(0, 0, 0, 0.7);
+    text-align: center;
+    position: absolute;
+    transition: all 1s ease;
+    }
+    
+    .home__mainContainer 
+    section.home__categoriesContainer 
+    .home__category--image 
+    a:hover {
+    color: rgb(255, 255, 255);
+    width: 100%;
+    text-align: center;
+    padding: 0.3rem 0;
+    transform: scale(1.1);
+    }
+    
+    .home__mainContainer 
+    section .home__categoriesContainer 
+    .home__category--image 
+    .filter {
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: rgba(0, 0, 0, 0.5);
+    width: 100%;
+    height: 100%;
+    transition: background-color 0.5s ease;
+    }
+    
+    
+    .home__mainContainer 
+    section.home__categoriesContainer 
+    .home__category--image#category__image1 {
+    background-image: url("../resources/imageRetratoH.jpg");
+    background-size: cover;  
+    }
+    .home__mainContainer 
+    section.home__categoriesContainer 
+    .home__category--image#category__image2 {
+    background-image: url("../resources/imageWelf.png");
+    background-size: cover;
+    }
+    .home__mainContainer 
+    section.home__categoriesContainer 
+    .home__category--image#category__image3 {
+    background-image: url("../resources/imageRei.png");
+    background-size: cover;
+    }
+    
+    
+    /* Media queries */
+    
+    @media screen and (min-width: 768px){
+    .home__mainContainer 
+    section.home__categoriesContainer {
+      flex-direction: row;
+      height: 300px;
+    }
+    
+    .home__mainContainer 
+    section.home__heroImage h1 {
+      font-size: 4rem;
+    }
+    
+    }
+
