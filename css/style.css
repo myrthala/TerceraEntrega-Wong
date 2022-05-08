@@ -15,7 +15,8 @@ body {
   background-color: #B1D0E0; }
 
 h1 {
-  text-align: center; }
+  text-align: center;
+  color: #1A374D; }
 
 header {
   display: flex;
@@ -74,7 +75,7 @@ header {
         border-radius: 5px;
         padding: 0.5rem; }
         header .header__menu ul li :hover {
-          background-image: linear-gradient(to right, #B1D0E0, #F5F5F5); }
+          background-color: #406882; }
     header .header__menu .header__closeMenu {
       position: absolute;
       top: 1rem;

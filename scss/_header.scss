@@ -53,7 +53,7 @@ header
 
     .header__menu
     {
-        display: flex;
+        display: none;
         position: fixed;
         top: 0;
         left: 0;
@@ -74,12 +74,12 @@ header
             {
                 text-transform: uppercase;
                 font-weight: 600;
-                // border-radius: 5px;
-                // padding: 0.5rem;
-                // :hover
-                // {
-                //     background-color: $color3;
-                // }
+                border-radius: 5px;
+                padding: 0.5rem;
+                :hover
+                {
+                    background-color: $color3;
+                }
             }
         }
 
@@ -114,14 +114,6 @@ header
             {
                 flex-direction: row;
                 justify-content: space-evenly;
-            }
-            li{
-                border-radius: 5px;
-                padding: 0.5rem;
-                :hover
-                {
-                    background-color: $color3;
-                }
             }
         }
         .header__closeMenu{

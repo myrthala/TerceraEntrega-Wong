@@ -31,24 +31,22 @@ main{
     margin-bottom: 1rem;
   }
   
-//   .gridContainer .info p {
-//     text-align: justify;
-//   }
+
   
   
   /* Media queries */
   
-//   @media screen and (min-width: 768px) {
-//     .gridContainer {
-//       display: grid;
-//       grid-template-rows: repeat(2, 1fr);
-//       align-items: center;
-//     }
+  @media screen and (min-width: 768px) {
+    .about__gridContainer {
+      display: grid;
+      grid-template-rows: repeat(2, 1fr);
+      align-items: center;
+    }
   
-//     .header__title {
-//       transform: scale(1.1);
-//     }
-//   }
+    .header__title {
+      transform: scale(1.1);
+    }
+  }
 
 //   //Declarar mapa
 // $colors:(
