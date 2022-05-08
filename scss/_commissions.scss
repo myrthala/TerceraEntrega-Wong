@@ -1,0 +1,30 @@
+//commissions style
+
+
+main{
+
+    .commissions__gridContainer
+    {
+        background-color: white;
+        box-shadow: 5px 5px 10px $color4;
+        width: 90%;
+        margin: 4rem auto;
+        align-items: center;
+        display: grid;
+        justify-content: center;
+        align-items: center;
+        padding: 5%;
+    .contact__form--buttonsContainer{
+        display: grid;
+        grid-template-columns: (repeat(2, 1fr));
+        justify-items: center;
+        }
+    .commissions__image{
+     
+            background: $color1;
+            justify-items: center;
+            align-items: center;
+            justify-content: center;
+        }
+    }
+}

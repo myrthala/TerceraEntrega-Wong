@@ -53,7 +53,47 @@
 
 
         <main class="commissions__gridContainer">
-            <h1 class="titles">Comisiones</h1>
+            <div class= "titles">
+                <h1>¡Tu sueño hecho ilustración!</h1>
+            </div>    
+            
+            <div class= "subtitle">
+                    <h3 class="header__title">Solicita aquí tu cotización</h3>
+            </div>
+               
+            <div class="gridContainer">
+                <div class= "commissions__image">
+                    <div class="commissions__image" id="commissions__photo"><!--Ilustración representativa.-->
+                        <img src="../resources/imageRei.png" alt="Cotización">
+                    </div>
+                </div>
+                   
+                <div class="commissions__box">
+                    <form action="/ruta'destino" method="get" enctype="">
+                        <fieldset>
+                        <div>
+                            <label for="">Tipo de iulstración: </label>
+                            <select name="illustrationType">
+                                <option value="" hidden selected>Elige de la lista</option>
+                                <option value="portrait">Retrato</option>
+                                <option value="fafntasy">Fantasía</option>
+                                <option value="drawing">Dibujo</option>
+                                <option value="unknown">No sé</option>
+                            </select>
+                        </div>
+            
+                        <div class= "commissions__description">
+                        <textarea name="dreamDescription" id="dream" placeholder="Descríbenos tu sueño. ¡Sin límites!" cols="30" rows="10"></textarea>
+                        </div>
+                        
+                        <div class="commissions__buttons">
+                            <button type="reset">Limpiar campos</button>
+                            <button type="submit">Enviar solicitud</button>
+                        </div>
+                    
+                        </fieldset>
+                    </form>
+                </div>
         </main>
 
         <!-- Flecha que lleva a la parte superior de la página. -->
