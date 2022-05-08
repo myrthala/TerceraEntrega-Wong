@@ -78,7 +78,7 @@ header
                 padding: 0.5rem;
                 :hover
                 {
-                    background-image: linear-gradient(to right, $color1, $headerBackgroundColor);
+                    background-color: $color3;
                 }
             }
         }
