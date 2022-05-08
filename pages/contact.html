@@ -7,7 +7,7 @@
         <meta name="description" content="El genio detrás de MangelArts.">
         <meta name="keywords"  content="ARTE, ILUSTRACIÓN, RETRATO, FANTASÍA, ELFOS, DIOSAS, AZTECAS, RETRATO INFANTIL, ILUSTRADOR, ARTIST, PAINTING, PORTRAIT, GODDESS AZTEC, FANSTASY, ABOUT, ILLUSTRATOR">
     
-        <title>Conoce al Genio</title>
+        <title>Escríbenos</title>
         <!-- Bootstrap CSS -->
         <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
         <!-- Font awesome -->
@@ -52,9 +52,124 @@
         </header>
 
 
-        <main class="contact__gridContainer">
-           
+        <main>
+        <div class="contact__mainContainer">
+            <div class="row titles">
+                <h1>¡Queremos escucharte!</h1>
+            </div>
             
+            <div class="contactForm">
+                    <form class="contact__form--mainContainer" action="/ruta-destino" method="get" enctype=""><!--Información que el ilustrador desea saber de la gente que lo contacta.-->
+                    <!-- <label for="">Nombre</label> -->
+                    <input type="text" name="userName" id="nombre" placeholder="Nombre" required> 
+                    <!-- <label for="">Apellido</label> -->
+                    <input type="text" lastname="userLastN" id="apellido" placeholder="Apellido" required>
+                    <!-- <label for="">Ciudad</label> -->
+                    <input type="text" city="city" id="ciudad" placeholder="Ciudad">
+                    <!-- <label for="">País</label> -->
+                    <input type="text" country="country" id="country" placeholder="País" required>
+                    <!-- <label for="">e-Mail</label> -->
+                    <input type="email" name="email" placeholder="Correo electrónico" required>
+    
+
+                    <div class="contact__sex">
+                        <input type="radio" name="male" />
+                        <label for="male">Hombre</label>
+                        <input type="radio" name="female" />
+                        <label for="female">Mujer</label>
+                                            
+                    </div>
+                               
+                    <!-- La lista desplegable de edad pudiera cambiarse por input -->
+                    <select name="edad">
+                        <option value="" hidden selected>Edad</option> 
+                        <option value="">17 o menos</option>
+                        <option value="">18</option>
+                        <option value="">19</option>
+                        <option value="">20</option>
+                        <option value="">21</option>
+                        <option value="">22</option>
+                        <option value="">23</option>
+                        <option value="">24</option>
+                        <option value="">25</option>
+                        <option value="">26</option>
+                        <option value="">27</option>
+                        <option value="">28</option>
+                        <option value="">29</option>
+                        <option value="">30</option>
+                        <option value="">31</option>
+                        <option value="">32</option>
+                        <option value="">33</option>
+                        <option value="">34</option>
+                        <option value="">35</option>
+                        <option value="">36</option>
+                        <option value="">37</option>
+                        <option value="">38</option>
+                        <option value="">39</option>
+                        <option value="">40</option>
+                        <option value="">41</option>
+                        <option value="">42</option>
+                        <option value="">43</option>
+                        <option value="">44</option>
+                        <option value="">45</option>
+                        <option value="">46</option>
+                        <option value="">47</option>
+                        <option value="">48</option>
+                        <option value="">49</option>
+                        <option value="">50</option>
+                        <option value="">51</option>
+                        <option value="">52</option>
+                        <option value="">53</option>
+                        <option value="">54</option>
+                        <option value="">55</option>
+                        <option value="">56</option>
+                        <option value="">57</option>
+                        <option value="">58</option>
+                        <option value="">59</option>
+                        <option value="">60</option>
+                        <option value="">61</option>
+                        <option value="">62</option>
+                        <option value="">63</option>
+                        <option value="">64</option>
+                        <option value="">65 o más</option>
+                    </select>
+                </div>
+
+                <div contact__form--knowContainer>
+                <!-- Checkboxes -->
+                <h4 class="subtitle">¿Cómo nos conociste?</h4>
+                <input type="checkbox" name="meet" id="face" value="face">
+                <label for="facebook">Facebook</label>
+                <input type="checkbox" name="meet" id="insta" value="insta">
+                <label for="instagram">Instagram</label>
+                <input type="checkbox" name="meet" id="tt" value="tt">
+                <label for="tiktok">TikTok</label>
+                <input type="checkbox" name="meet" id="browsing" value="browsing">
+                <label for="browsing">Web</label>
+                <input type="checkbox" name="meet" id="friends" value="friends">
+                <label for="friends">Amigos</label>
+                <input type="checkbox" name="meet" id="friends" value="friends">
+                <label for="other">Otro medio</label>
+                </div>
+                
+                <div contact__form--subjectContainer>
+                    <!-- <label for="">Asunto</label> -->
+                    <input type="text" name="subject" id="asunto" placeholder="Asunto"> 
+                </div>
+                <div contact__form--textContainer>
+                    <textarea name="message" placeholder="Deja aquí tus comentarios" cols="30" rows="10"></textarea>
+                </div>
+                
+                
+                <div contact__form--buttonsContainer>
+                    <button type="reset">Limpiar campos</button>
+                    <button type="submit">Enviar comentarios</button>
+
+                </div>
+            
+            </form>
+           
+        </div>   
         </main>
 
         <!-- Flecha que lleva a la parte superior de la página. -->

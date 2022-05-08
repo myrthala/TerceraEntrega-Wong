@@ -251,6 +251,81 @@ footer footer__socialMedia-container a:hover {
     width: 4rem;
     height: 4rem; } }
 
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  scroll-behavior: smooth; }
+
+a {
+  text-decoration: none;
+  color: #1A374D; }
+
+li {
+  list-style: none; }
+
+body {
+  background-color: #B1D0E0; }
+
+h1 {
+  text-align: center;
+  color: #1A374D; }
+
+main .contact__mainContainer {
+  background-color: white;
+  box-shadow: 5px 5px 10px #1A374D;
+  width: 90%;
+  margin: 4rem auto;
+  align-items: center;
+  display: grid;
+  justify-content: center;
+  align-items: center;
+  padding: 5%; }
+
+main .contact__form--mainContainer {
+  display: grid;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 1rem; }
+
+main .contact__form--knowContainer {
+  display: grid;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 1rem; }
+  main .contact__form--knowContainer .contact__sex {
+    display: grid;
+    grid-template-columns: 1fr 3fr;
+    grid-template-rows: repeat(2, 1fr);
+    justify-items: center;
+    margin-bottom: 1rem; }
+
+main .subtitle {
+  text-align: center;
+  color: #406882;
+  margin-bottom: 1rem; }
+
+main .contact__form--subjectContainer {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 1fr;
+  justify-content: center;
+  align-items: center;
+  margin: 1rem; }
+
+main .contact__form--textContainer {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 3fr;
+  justify-content: center;
+  align-items: center;
+  margin: 1rem; }
+
+main .contact__form--buttonsContainer {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  justify-items: center; }
+
 body {
   font: rial, Helvetica, sans-serif; }
 
