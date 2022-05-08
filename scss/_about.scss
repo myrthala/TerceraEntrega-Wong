@@ -1,0 +1,77 @@
+//Código principal de about.html
+
+
+main{
+    .about__gridContainer {
+        background-color: white;
+        box-shadow: 5px 5px 10px $color4;
+        width: 90%;
+        margin: 4rem auto;
+        align-items: center;
+        display: grid;
+        //una columna en la que se muestra todo
+        grid-template-columns: 1fr;
+        grid-template-rows: repeat(3, 1fr);
+        div#about__foto{
+            border-radius: 90%;
+            background: $color1;
+            justify-items: center;
+            align-items: center;
+            justify-content: center;
+        }
+    }
+
+}
+
+  
+
+  .gridContainer .info h1 {
+    text-align: center;
+    font-size: 2rem;
+    margin-bottom: 1rem;
+  }
+  
+//   .gridContainer .info p {
+//     text-align: justify;
+//   }
+  
+  
+  /* Media queries */
+  
+//   @media screen and (min-width: 768px) {
+//     .gridContainer {
+//       display: grid;
+//       grid-template-rows: repeat(2, 1fr);
+//       align-items: center;
+//     }
+  
+//     .header__title {
+//       transform: scale(1.1);
+//     }
+//   }
+
+//   //Declarar mapa
+// $colors:(
+//     one: $color3,
+//     two: $color2,   
+// );
+
+// @each $paragraph, $color in $colors {
+//     .p__#{$paragraph}{
+//         color: #{$color};
+//     }
+// }
+
+
+// //media queries
+// @media screen and (min-width: 768px){
+//     .about__grid {
+//         display: grid;
+//         //dos columnas y 3 filas para desplegar la info lado a lado
+//         grid-template-columns: repeat(2, 1fr);
+//         grid-template-rows: repeat(3, 1fr);
+//         grid-column-gap: 5px;
+//         grid-row-gap: 0px;
+//         }
+
+//     }
