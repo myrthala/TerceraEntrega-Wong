@@ -35,15 +35,10 @@ header
         border-radius: 5px;
         cursor: pointer;
         transition: box-shadow 0.5s ease-in;
-        :hover
-        {
-            box-shadow: 0 0 8px $shadow;
-        }
     }
     input#menu
     {
         display: none;
-       
     }
     #menu:checked ~ .header__menu
     {
