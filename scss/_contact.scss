@@ -61,3 +61,86 @@ main{
 
  
 }
+
+
+
+
+
+// .contact__mainContainer {
+//     min-height: 90vh;
+//     /* display: flex;
+//     justify-content: center;
+//     align-items: center; */
+//     display: grid;
+//     justify-content: center;
+//     align-items: center;
+// }
+
+// .contact__mainContainer .contact__form {
+//     /* display: flex;
+//     flex-direction: column; */
+//     display: grid;
+//     justify-content: center;
+//     align-items: center;
+// }
+
+// .contact__mainContainer .contact__form h2 {
+//     text-align: center;
+//     margin-bottom: 1rem;
+// }
+
+// .contact__mainContainer .contact__form input {
+//     height: 2.5rem;
+//     padding: 1rem;
+//     outline: none;
+//     margin-bottom: 1rem;
+// }
+
+// .contact__mainContainer .contact__form textarea {
+//     padding: 1rem;
+//     resize: none;
+//     margin-bottom: 1rem;
+// }
+
+// .contact__mainContainer .contact__form .contact__form--buttonsContainer {
+//     /* display: flex;
+//     justify-content: space-around; */
+//     display: grid;
+//     grid-template-columns: repeat(2, 1fr);
+//     justify-items: center;
+// }
+
+// .contact__mainContainer .contact__form .contact__form--buttonsContainer button {
+//     border: none;
+//     padding: 0.5rem 1rem;
+//     border-radius: 5px;
+//     text-transform: uppercase;
+// }
+
+// .contact__mainContainer .contact__form .contact__form--buttonsContainer button[type = "submit"] {
+//     background-color: grey;
+//     color: white;
+//     transition: all .5s ease-in;
+// }
+
+// .contact__mainContainer .contact__form .contact__form--buttonsContainer button[type = "submit"]:hover {
+//     background-color: white;
+//     color: rgb(70, 70, 70);
+//     border: 1px solid rgb(75, 75, 75);
+//     cursor: pointer;
+// }
+
+// .contact__mainContainer .contact__form .contact__form--buttonsContainer button[type = "reset"] {
+//     background-color: white;
+//     color: grey;
+//     border: 1px solid grey;
+//     transition: all .5s ease-in;
+
+// }
+
+// .contact__mainContainer .contact__form .contact__form--buttonsContainer button[type = "reset"]:hover {
+//     background-color: rgb(102, 102, 102);
+//     color: white;
+//     cursor: pointer;
+// }
+

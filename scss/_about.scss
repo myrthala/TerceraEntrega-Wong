@@ -72,3 +72,46 @@ main{
 //         }
 
 //     }
+
+
+
+// lo que está en la segunda entrega: 
+// .about__sectionContainer {
+//   background-color: white;
+//   box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.1);
+//   width: 90%;
+//   margin: 4rem auto;
+//   align-items: center;
+// }
+
+// .about__sectionContainer .about__dataContainer,
+// .about__sectionContainer .about__photoContainer {
+//   padding: 2rem;
+// }
+
+// .about__sectionContainer .about__photoContainer img {
+//   width: 100%;
+//   height: 100%;
+//   object-fit: cover;
+//   border-radius: 10px;
+// }
+
+// .about__sectionContainer .about__dataContainer h1 {
+//   text-align: center;
+//   font-size: 1.5rem;
+//   margin-bottom: 1rem;
+// }
+
+// .about__sectionContainer .about__dataContainer p {
+//   text-align: justify;
+// }
+
+// /* Media queries */
+
+// @media screen and (min-width: 768px) {
+//   .about__sectionContainer {
+//     display: grid;
+//     grid-template-columns: repeat(2, 1fr);
+//     align-items: center;
+//   }
+// }
