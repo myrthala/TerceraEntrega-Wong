@@ -13,105 +13,44 @@ main{
         grid-template-columns: 1fr;
         grid-template-rows: repeat(3, 1fr);
         div#about__foto{
-            background: $color1;
-            justify-items: center;
-            align-items: center;
-            justify-content: center;
+        justify-items: center;
+        align-items: center;
+        justify-content: center;
+        size: 4rem;
+        object-fit: cover;
         }
-    }
-
-}
-
-  
-
-  .gridContainer .info h1 {
-    text-align: center;
-    font-size: 2rem;
-    margin-bottom: 1rem;
+    .info {
+        text-align: justify;
+        font-size: 1rem;
+        margin-bottom: 1rem;
   }
   
-
+}
   
   
   /* Media queries */
   
   @media screen and (min-width: 768px) {
+
     .about__gridContainer {
       display: grid;
+      grid-template-columns: repeat(2, 1fr);
       grid-template-rows: repeat(2, 1fr);
-      align-items: center;
+      grid-column-gap: 10px;
+      grid-row-gap: 0px;
     }
-  
+    .gridContainer { 
+      .photo { grid-area: 1 / 1 / 3 / 2; }
+      .info1 { grid-area: 1 / 2 / 2 / 3; }
+      .info2 { grid-area: 2 / 2 / 3 / 3; }
+      padding: 32px;
+    }
     .header__title {
       transform: scale(1.1);
     }
+    div#about__foto{
+      place-items: center;
+      size: 5rem;
+    }
   }
-
-//   //Declarar mapa
-// $colors:(
-//     one: $color3,
-//     two: $color2,   
-// );
-
-// @each $paragraph, $color in $colors {
-//     .p__#{$paragraph}{
-//         color: #{$color};
-//     }
-// }
-
-
-// //media queries
-// @media screen and (min-width: 768px){
-//     .about__grid {
-//         display: grid;
-//         //dos columnas y 3 filas para desplegar la info lado a lado
-//         grid-template-columns: repeat(2, 1fr);
-//         grid-template-rows: repeat(3, 1fr);
-//         grid-column-gap: 5px;
-//         grid-row-gap: 0px;
-//         }
-
-//     }
-
-
-
-// lo que está en la segunda entrega: 
-// .about__sectionContainer {
-//   background-color: white;
-//   box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.1);
-//   width: 90%;
-//   margin: 4rem auto;
-//   align-items: center;
-// }
-
-// .about__sectionContainer .about__dataContainer,
-// .about__sectionContainer .about__photoContainer {
-//   padding: 2rem;
-// }
-
-// .about__sectionContainer .about__photoContainer img {
-//   width: 100%;
-//   height: 100%;
-//   object-fit: cover;
-//   border-radius: 10px;
-// }
-
-// .about__sectionContainer .about__dataContainer h1 {
-//   text-align: center;
-//   font-size: 1.5rem;
-//   margin-bottom: 1rem;
-// }
-
-// .about__sectionContainer .about__dataContainer p {
-//   text-align: justify;
-// }
-
-// /* Media queries */
-
-// @media screen and (min-width: 768px) {
-//   .about__sectionContainer {
-//     display: grid;
-//     grid-template-columns: repeat(2, 1fr);
-//     align-items: center;
-//   }
-// }
+}

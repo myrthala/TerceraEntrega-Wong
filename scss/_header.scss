@@ -70,10 +70,7 @@ header
                 font-weight: 600;
                 border-radius: 5px;
                 padding: 0.5rem;
-                :hover
-                {
-                    background-color: $color3;
-                }
+               
             }
         }
 
@@ -108,7 +105,11 @@ header
             {
                 flex-direction: row;
                 justify-content: space-evenly;
+                li:hover {
+                    background-image: linear-gradient(to right, $color1, whitesmoke);
+                }
             }
+            
         }
         .header__closeMenu{
             display: none;

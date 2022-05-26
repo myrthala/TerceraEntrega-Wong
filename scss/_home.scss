@@ -30,22 +30,39 @@
     margin: 4rem auto;
     background-color: white;
     box-shadow: 5px 5px 10px $color4;
+   
+    .home__category--image#category__image1 {
+    background-image: url("../resources/Fmiguel-angel-ortiz-infinite-bond-by-miguelortiz.jpg");
+    background-size: cover;  
+    }
+   
+    .home__category--image#category__image2 {
+    background-image: url("../resources/Dmiguel-ortiz-daughter-of-zeus-by-miguelortiz.jpg");
+    background-size: cover;
+    }
+   
+    .home__category--image#category__image3 {
+    background-image: url("../resources/imageRetratoH.jpg");
+    background-size: cover;
+    }
     .home__category--image{
       display: flex;
       height: 100%;
       width: 100%;
       justify-content: center;
       transition: transform 0.5s;
-      a{
+      
+      .a{
         font-size: 1.5rem;
         text-transform: uppercase;
+        text-decoration: none;
         color: $color1;
         position: absolute;
         transition: all 0.5s ease-in;
+        background: $backshadow;
       }
       :hover{
-        transform: scale(1.15);
-      }
+        transform: scale(1.15);}
       .filter {
         position: absolute;
         top: 0;
@@ -70,27 +87,5 @@
             font-size: 4rem;
           }
         }
-    }
-}
-
-    .home__mainContainer 
-    section.home__categoriesContainer 
-    .home__category--image#category__image1 {
-    background-image: url("../resources/Fmiguel-angel-ortiz-infinite-bond-by-miguelortiz.jpg");
-    background-size: cover;  
-    }
-    .home__mainContainer 
-    section.home__categoriesContainer 
-    .home__category--image#category__image2 {
-    background-image: url("../resources/Dmiguel-ortiz-daughter-of-zeus-by-miguelortiz.jpg");
-    background-size: cover;
-    }
-    .home__mainContainer 
-    section.home__categoriesContainer 
-    .home__category--image#category__image3 {
-    background-image: url("../resources/imageRetratoH.jpg");
-    background-size: cover;
-    }
-    
-    
-//    
+    } 
+}   
