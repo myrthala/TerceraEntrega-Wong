@@ -1,5 +1,4 @@
 main{
-
     .commissions__gridContainer
     {
         display: grid;
@@ -10,14 +9,24 @@ main{
         justify-content: center;
         align-items: center;
         padding: 10%;
+    .commissions__image{
+        margin: 1rem;
+        padding: 10px;
+       img{
+        max-width: fit-content;
+        height: auto;
+       } 
+    }
     .contact__form--buttonsContainer{
         display: grid;
         grid-template-columns: (repeat(2, 1fr));
         justify-items: center;
+        margin: 1rem;
+        padding: 10px;
         }
     .commissions__image #img{
         padding: 10%;    
-        width: 90%;
+        width: 50%;
         background: $color1;
         justify-items: center;
         align-items: center;
@@ -25,27 +34,3 @@ main{
         }
     }
 }
-
-
-
-
-
-
-/* SHOP*/
-/* +++++++++++ */
-
-// .shop__mainContainer {
-//     display: flex;
-//     flex-direction: column;
-//     justify-content: center;
-//     align-items: center;
-//     min-height: 100vh;
-// }
-
-// .shop__mainContainer h1{
-//     text-align: center;
-// }
-
-// .shop__mainContainer i{
-//     font-size: 5rem;
-// }

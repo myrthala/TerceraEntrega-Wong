@@ -18,6 +18,10 @@ h1 {
   text-align: center;
   color: #1A374D; }
 
+h3 {
+  text-align: center;
+  color: black; }
+
 header {
   display: flex;
   position: sticky;
@@ -260,84 +264,161 @@ main .commissions__gridContainer {
   justify-content: center;
   align-items: center;
   padding: 10%; }
+  main .commissions__gridContainer .commissions__image {
+    margin: 1rem;
+    padding: 10px; }
+    main .commissions__gridContainer .commissions__image img {
+      max-width: fit-content;
+      height: auto; }
   main .commissions__gridContainer .contact__form--buttonsContainer {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
-    justify-items: center; }
+    justify-items: center;
+    margin: 1rem;
+    padding: 10px; }
   main .commissions__gridContainer .commissions__image #img {
     padding: 10%;
-    width: 90%;
+    width: 50%;
     background: #B1D0E0;
     justify-items: center;
     align-items: center;
     justify-content: center; }
 
-/* SHOP*/
-/* +++++++++++ */
-main .contact__mainContainer {
-  background-color: white;
-  box-shadow: 5px 5px 10px #1A374D;
-  width: 90%;
-  margin: 4rem auto;
-  align-items: center;
-  display: grid;
-  justify-content: center;
-  align-items: center;
-  padding: 5%; }
-
-main .contact__form--mainContainer {
-  display: grid;
-  justify-content: center;
-  align-items: center;
-  margin-bottom: 1rem; }
-
-main .contact__form--knowContainer {
-  display: grid;
-  justify-content: center;
-  align-items: center;
-  margin-bottom: 1rem; }
-  main .contact__form--knowContainer .contact__sex {
+main {
+  /* Media queries */ }
+  main .contact__mainContainer {
+    background-color: white;
+    box-shadow: 5px 5px 10px #1A374D;
+    width: 90%;
+    margin: 2rem auto;
+    align-items: center;
     display: grid;
-    grid-template-columns: 1fr 3fr;
-    grid-template-rows: repeat(2, 1fr);
-    justify-items: center;
-    margin-bottom: 1rem; }
+    justify-content: center;
+    align-items: center;
+    padding: 5%;
+    margin: 1rem; }
+    main .contact__mainContainer .contact__form--mainContainer {
+      display: grid;
+      justify-content: center;
+      align-items: center;
+      margin: 1rem; }
+      main .contact__mainContainer .contact__form--mainContainer #nombre {
+        margin: 5px; }
+      main .contact__mainContainer .contact__form--mainContainer #apellido {
+        margin: 5px; }
+      main .contact__mainContainer .contact__form--mainContainer #ciudad {
+        margin: 5px; }
+      main .contact__mainContainer .contact__form--mainContainer #country {
+        margin: 5px; }
+      main .contact__mainContainer .contact__form--mainContainer #correo {
+        margin: 5px; }
+      main .contact__mainContainer .contact__form--mainContainer .contact__sex {
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        grid-template-rows: 1fr;
+        grid-column-gap: 3px;
+        grid-row-gap: 0px; }
+      main .contact__mainContainer .contact__form--mainContainer .male {
+        grid-area: 1 / 1 / 2 / 3; }
+      main .contact__mainContainer .contact__form--mainContainer .female {
+        grid-area: 1 / 3 / 2 / 5; }
+    main .contact__mainContainer .contact__form--knowContainer {
+      display: grid;
+      justify-content: center;
+      align-items: center;
+      margin: 1rem; }
+    main .contact__mainContainer .subtitle {
+      text-align: center;
+      color: #406882;
+      margin: 1rem; }
+    main .contact__mainContainer .contact__form--subjectContainer {
+      display: grid;
+      grid-template-columns: 1fr;
+      grid-template-rows: 1fr;
+      justify-content: center;
+      align-items: center;
+      margin: 1rem; }
+    main .contact__mainContainer .contact__form--textContainer {
+      display: grid;
+      grid-template-columns: 1fr;
+      grid-template-rows: 3fr;
+      justify-content: center;
+      align-items: center;
+      margin: 1rem; }
+    main .contact__mainContainer .contact__form--buttonsContainer {
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      justify-items: center;
+      margin: 1rem; }
+  @media screen and (min-width: 768px) {
+    main .contact__form--knowContainer {
+      display: grid;
+      grid-template-columns: repeat(6, 1fr);
+      grid-template-rows: repeat(2, 1fr);
+      grid-column-gap: 5px;
+      grid-row-gap: 7px; }
+    main .face {
+      grid-area: 1 / 1 / 2 / 3; }
+    main .insta {
+      grid-area: 1 / 3 / 2 / 5; }
+    main .tiktok {
+      grid-area: 1 / 5 / 2 / 7; }
+    main .web {
+      grid-area: 2 / 1 / 3 / 3; }
+    main .friends {
+      grid-area: 2 / 3 / 3 / 5; }
+    main .other {
+      grid-area: 2 / 5 / 3 / 7; } }
 
-main .subtitle {
-  text-align: center;
-  color: #406882;
-  margin-bottom: 1rem; }
-
-main .contact__form--subjectContainer {
-  display: grid;
-  grid-template-columns: 1fr;
-  grid-template-rows: 1fr;
-  justify-content: center;
-  align-items: center;
-  margin: 1rem; }
-
-main .contact__form--textContainer {
-  display: grid;
-  grid-template-columns: 1fr;
-  grid-template-rows: 3fr;
-  justify-content: center;
-  align-items: center;
-  margin: 1rem; }
-
-main .contact__form--buttonsContainer {
-  display: grid;
-  grid-template-columns: repeat(2, 1fr);
-  justify-items: center; }
-
-.main .gallery__gridContainer {
+#gallery__gridContainer {
+  padding: 2rem;
   background-color: white;
-  box-shadow: 5px 5px 10px #1A374D;
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.1);
   width: 90%;
   margin: 4rem auto;
   display: grid;
-  justify-content: center;
-  align-items: center;
-  padding: 5%; }
+  grid-template-rows: 25px repeat(3, 1fr); }
+  #gallery__gridContainer .gallery__section--header {
+    grid-area: title;
+    text-align: center;
+    font-size: 1.5rem; }
+  #gallery__gridContainer .img__1 {
+    grid-area: img1; }
+  #gallery__gridContainer .img__2 {
+    grid-area: img2; }
+  #gallery__gridContainer .img__3 {
+    grid-area: img3; }
+  #gallery__gridContainer .img__4 {
+    grid-area: img4; }
+  #gallery__gridContainer .gallery__section--grid {
+    min-height: 100vh;
+    margin: 1rem 0;
+    padding: 2rem 0.5rem;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.1);
+    display: grid;
+    grid-template-columns: repeat(2, 50%);
+    grid-template-rows: 50px 500px 500px;
+    grid-template-areas: "title title" "img1 img2 " "img3 img4"; }
+    #gallery__gridContainer .gallery__section--grid img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover; }
+  @media screen and (min-width: 768px) {
+    #gallery__gridContainer #gallery__grid {
+      grid-template-rows: 70px repeat(3, 1fr); }
+      #gallery__gridContainer #gallery__grid .gallery__section--grid {
+        margin: 2rem 0;
+        padding: 4rem;
+        /* GRID */
+        grid-template-columns: 40% repeat(2, 50%);
+        grid-template-rows: 50px 1000px 1000px; }
+        #gallery__gridContainer #gallery__grid .gallery__section--grid img {
+          width: 100%;
+          height: 100%;
+          object-fit: cover;
+          object-position: center; }
+        #gallery__gridContainer #gallery__grid .gallery__section--grid .gallery__section--header {
+          font-size: 2.5rem; } }
 
 body {
   font: rial, Helvetica, sans-serif; }
